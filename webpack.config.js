@@ -1,6 +1,6 @@
 const path = require('path');
 
-const { NODE_ENV: env = 'development' } = process.env;
+const { NODE_ENV: env = 'production' } = process.env;
 
 module.exports = {
   mode: env,
